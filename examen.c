@@ -77,7 +77,7 @@ void archivoLee(struct Deportista dep[100])
 	{
 		vaciar(read);
 		aux = '0';
-		for(k=0; aux!='-'; k++)
+		for(k=0; aux!='-'; k++)//???
 		{
 			aux=fgetc(archivo);
 			if(aux!='-')
@@ -94,7 +94,7 @@ void archivoLee(struct Deportista dep[100])
 		printf("El archivo no se cerro bien");
 }
 
-void archivoRecibe()
+void archivoRecibe()//???
 {
 	FILE *archivo;
 	int cerrado;
