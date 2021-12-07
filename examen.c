@@ -19,6 +19,9 @@
 #include <stdio.h>
 #include <string.h>
 
+
+//la verdad no tuve claro lo que hice, no pierda mucho tiempo viendo esto una disculpa
+
 typedef struct {
 
     char nombre[40];
